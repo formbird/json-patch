@@ -88,6 +88,7 @@ use thiserror::Error;
 
 #[cfg(feature = "diff")]
 mod diff;
+mod hashable_value;
 
 #[cfg(feature = "diff")]
 pub use self::diff::diff;
